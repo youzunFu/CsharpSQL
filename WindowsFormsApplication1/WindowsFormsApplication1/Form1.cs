@@ -320,11 +320,7 @@ namespace WindowsFormsApplication1
                     //save1 = save1 * (duration / (float)3600);  //度 * 小時 
                 if (k == 0){label14.Text = "展示設備 節電量 ： " + totalsave + " 度";}
                 else if (k == 1) { label15.Text = "模擬家電 節電量 ： " + totalsave + " 度";}
-
-
-               // string Qrequest4 = "SELECT `duration` FROM `dr` WHERE `id`=" + drid;
-                //save = getEnergy(Qrequest4);
-                    
+   
                 }
                 else if (drstate.Equals("drend") && drwork.Equals(1))//結束DR事件work=1 ==> 還未執行dr_finish
                 {
